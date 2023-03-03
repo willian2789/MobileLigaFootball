@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+
+    tools:context=".DetalhesActivity">
+    <EditText
+    android:id="@+id/editTextNomeD"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp"
+    android:hint="Nome do Time"
+    android:inputType="text"
+    android:textColor="#4CAF50"
+    android:textColorHint="@color/green" />
+
+    <EditText
+        android:id="@+id/editTextLigaD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:hint="Nome da LigaD"
+        android:inputType="text"
+        android:textColor="#4CAF50"
+        android:textColorHint="@color/green"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextPaisD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:hint="Pais do TimeD"
+        android:inputType="text"
+        android:textColor="#4CAF50"
+        android:textColorHint="@color/green"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextCampeonatoD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:hint="Campeonato"
+        android:inputType="text"
+        android:textColor="#4CAF50"
+        android:textColorHint="@color/green"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/buttonConfirmarInclusaoD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incluir"
+        app:backgroundTint="#1DB954" />
+</LinearLayout>

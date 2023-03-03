@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/buttonAdicionarNovo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Novo Time"
+        app:backgroundTint="#1DB954" />
+
+    <EditText
+        android:id="@+id/editTextPesquisaTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="Pesquisar pelo Time"
+        android:textColorHint="#AFAFAF"
+        tools:ignore="TouchTargetSizeCheck"
+        app:backgroundTint="#1DB954" />
+    <EditText
+        android:id="@+id/editTextPesquisaLiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="Pesquisar pela Liga"
+        android:textColorHint="#AFAFAF"
+        tools:ignore="TouchTargetSizeCheck"
+        app:backgroundTint="#1DB954"/>
+
+    <ListView
+        android:id="@+id/listViewTimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#FFFFFF"
+        android:cacheColorHint="#1DB954" />
+
+</LinearLayout>
